@@ -1,0 +1,19 @@
+<%- include("header") -%>
+        <div class="box" id="heading">
+            <h1><em> Enter sgpa</em></h1>
+        </div>
+        <div class="box">
+            <form class="item" action="/calc_cgpa" method="post">
+                <p><input type="number" name="fst_sem" placeholder="1st sem" step="0.01">
+                <input type="number" name="snd_sem" placeholder="2nd sem" step="0.01"></p>
+                <p><input type="number" name="trd_sem" placeholder="3rd sem" step="0.01">
+                <input type="number" name="frth_sem" placeholder="4th sem" step="0.01"></p>
+                <p><input type="number" name="fth_sem" placeholder="5th sem" step="0.01">
+                <input type="number" name="sith_sem" placeholder="6th sem" step="0.01"></p>
+                <p><input type="number" name="seth_sem" placeholder="7th sem" step="0.01">
+                <input type="number" name="eth_sem" placeholder="8th sem" step="0.01"></p>
+                <button type="submit">calculate</button>
+            </form>
+        </div>
+    </body>
+</html>
